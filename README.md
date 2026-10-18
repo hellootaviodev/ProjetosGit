@@ -118,7 +118,7 @@ No VS Code, use **Accept Current / Accept Incoming / Accept Both Changes**, deix
 ```bash
 git add .
 git commit -m "Resolve conflito com a main"
-git push
+git pushawd
 ```
 Para evitar conflitos, cada pessoa edita principalmente os próprios arquivos.
 
