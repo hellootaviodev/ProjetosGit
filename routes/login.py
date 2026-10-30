@@ -8,7 +8,7 @@ def entrar():
         usuario = request.form.get("usuario", "").strip()
         senha = request.form.get("senha", "")
 
-        # Acesso de demonstração para o trabalho
+        # Acessos de demonstração para o trabalho
         if usuario == "admin" and senha == "123456":
             session["usuario"] = usuario
             return redirect("/")
